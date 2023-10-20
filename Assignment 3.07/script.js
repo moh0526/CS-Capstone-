@@ -18,8 +18,8 @@ function changeBackground()
         }
     }
     else if (counter % 3 == 1){
-        this.style.background = "lightpurple";
-        if (p.style.background = "lightpurple"){
+        this.style.background = "purple";
+        if (p.style.background = "purple"){
             p.innerHTML = "Good Job"
             p.style.color = "yellowgreen"
         }
@@ -27,8 +27,8 @@ function changeBackground()
     else if (counter % 3 == 2){
         this.style.background = "lightblue";
         if (p.style.background = "lightblue"){
-            p.innerHTML = "Congrats"
-            p.style.color = "white"
+            p.innerHTML = "Bravo"
+            p.style.color = "black"
         }
     }
     
