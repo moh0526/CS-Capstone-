@@ -54,10 +54,10 @@ function start()
 start();
 document.querySelector("#start").onclick= start;
 
-function stop()
+function reset()
 {
     currentMargin = 0;
     p.style.margin = "0px";
     clearInterval(animation);
 }
-document.querySelector("#stop").onclick = stop;
+document.querySelector("#reset").onclick = reset;
