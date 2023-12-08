@@ -1,0 +1,12 @@
+body {
+    background: bisque;
+    color: black;
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+
+.navbar-brand{
+    font-family: 'Times New Roman';
+    color: black;
+   
+}
